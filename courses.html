@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <title>TechPro Academy - Courses</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="js/scripts.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Our Courses</h1>
+    </header>
+
+    <section class="course-filter">
+        <label for="category">Filter by category:</label>
+        <select id="category">
+            <option value="all">All</option>
+            <option value="programming">Programming</option>
+            <option value="networking">Networking</option>
+            <option value="data-science">Data Science</option>
+        </select>
+    </section>
+
+    <section class="course-list">
+        <!-- Programming Courses -->
+        <div class="course" data-category="programming">
+            <img src="python.jpeg" alt="Python Programming">
+            <h4>Python Programming</h4>
+            <p>Master the fundamentals of Python and develop your programming skills.</p>
+        </div>
+
+        <div class="course" data-category="programming">
+            <img src="javascript.png" alt="JavaScript Development">
+            <h4>JavaScript Development</h4>
+            <p>Learn how to create interactive websites with JavaScript and modern frameworks.</p>
+        </div>
+
+        <div class="course" data-category="programming">
+            <img src="java.jpeg" alt="Java Programming">
+            <h4>Java Programming</h4>
+            <p>Gain in-depth knowledge of object-oriented programming with Java.</p>
+        </div>
+
+        <!-- Networking Courses -->
+        <div class="course" data-category="networking">
+            <img src="cyber.jpeg" alt="Cybersecurity">
+            <h4>Cybersecurity</h4>
+            <p>Learn to protect networks and data from cyber threats.</p>
+        </div>
+
+        <div class="course" data-category="networking">
+            <img src="cloud.png" alt="Cloud Computing">
+            <h4>Cloud Computing</h4>
+            <p>Explore cloud technologies and learn to manage cloud-based infrastructure.</p>
+        </div>
+
+        <div class="course" data-category="networking">
+            <img src="networking.jpeg" alt="Networking Fundamentals">
+            <h4>Networking Fundamentals</h4>
+            <p>Understand the basics of networking, routers, and switches to build solid networks.</p>
+        </div>
+
+        <!-- Data Science Courses -->
+        <div class="course" data-category="data-science">
+            <img src="Data.jpg" alt="Data Analysis">
+            <h4>Data Analysis</h4>
+            <p>Become proficient in analyzing data to drive decision-making.</p>
+        </div>
+
+        <div class="course" data-category="data-science">
+            <img src="machine.jpeg" alt="Machine Learning">
+            <h4>Machine Learning</h4>
+            <p>Learn to build predictive models using machine learning techniques.</p>
+        </div>
+
+        <div class="course" data-category="data-science">
+            <img src="datavisualization.webp" alt="Data Visualization">
+            <h4>Data Visualization</h4>
+            <p>Master the art of visualizing data using modern tools like Tableau and Power BI.</p>
+        </div>
+
+        <!-- Additional Course -->
+        <div class="course" data-category="programming">
+            <img src="webdev.jpeg" alt="Web Development">
+            <h4>Web Development</h4>
+            <p>Learn to build responsive websites with HTML, CSS, and JavaScript.</p>
+        </div>
+    </section>
+</body>
+</html>

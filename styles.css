@@ -1,0 +1,225 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: #fff; /* Default white background */
+    line-height: 1.6;
+}
+
+/* Header Navigation */
+header {
+    background-color: #b30000; /* Red background for header */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #b30000;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: #fff; /* Hover background white */
+    color: #b30000; /* Hover text color red */
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+ 
+    height: 400px;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    position: relative;
+}
+
+.hero .intro {
+    background-color: rgba(0, 0, 0, 0.7);
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Featured Courses Section */
+.featured-courses {
+    padding: 40px 20px;
+    background-color: #009933; /* Green background for this section */
+    text-align: center;
+}
+
+.featured-courses h3 {
+    color: #fff;
+}
+
+.featured-courses .course {
+    display: inline-block;
+    background-color: #fff;
+    color: #000;
+    width: 30%;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.featured-courses .course img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.featured-courses .course h4 {
+    margin-top: 15px;
+}
+
+.featured-courses .course p {
+    font-size: 14px;
+}
+
+/* Courses Page */
+.course-filter {
+    text-align: center;
+    margin: 20px 0;
+    background-color: #b30000; /* Red background for filter section */
+    padding: 20px;
+}
+
+.course-filter label {
+    color: white;
+    font-size: 18px;
+}
+
+.course-filter select {
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.course-list {
+    text-align: center;
+    padding: 20px;
+}
+
+.course-list .course {
+    display: inline-block;
+    background-color: #fff;
+    color: #000;
+    width: 30%;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.course-list .course img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.course-list .course h4 {
+    margin-top: 15px;
+}
+
+.course-list .course p {
+    font-size: 14px;
+}
+
+/* About Page */
+.about-info, .achievements {
+    background-color: #009933; /* Green background */
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.about-info h2, .achievements h3 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.about-info p, .achievements ul {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.achievements ul {
+    list-style: none;
+    padding: 0;
+}
+
+.achievements ul li {
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Page */
+.contact-info {
+    background-color: #009933; /* Green background */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contact-info p {
+    font-size: 18px;
+}
+
+.contact-form {
+    background-color: #fff;
+    color: #000;
+    padding: 30px;
+    margin: 30px auto;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #b30000; /* Red background for button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-form button:hover {
+    background-color: #fff;
+    color: #b30000; /* Button hover effect */
+    border: 1px solid #b30000;
+}
